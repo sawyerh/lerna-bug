@@ -1,0 +1,10 @@
+{
+  "name": "lerna-bug",
+  "version": "0.0.0",
+  "devDependencies": {
+    "lerna": "^2.4.0"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap"
+  }
+}
