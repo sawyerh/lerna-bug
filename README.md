@@ -1,5 +1,13 @@
 # Installation
 
+Symlink `foo-pkg`:
+
+```
+ln -s /ABSOLUTE/PATH/TO/foo-pkg/ project-root/packages/
+```
+
+Install dependencies and run bootstrap:
+
 ```
 cd project-root/ && npm install
 ```
